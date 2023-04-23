@@ -1,9 +1,9 @@
 <script setup>
 import { ref } from 'vue';
+
 const text = ref();
-
-
 </script>
+
 
 <template>
 
@@ -12,11 +12,11 @@ const text = ref();
     <InputText id="txt" type="text" v-model="text" />
     <label for="txt">Text</label>    
   </span>
-  <div >
-        <Button label="Check" icon="pi pi-user"></Button>
+
+        <Button label="Check" icon="pi pi-user" ></Button>
+<Avatar label="V" class="mr-2" size="large" style="background-color:#2196F3; color: #ddd" shape="circle"  />
     </div>
     
-    </div>
 </template>
 
 <style>

@@ -1,12 +1,24 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
+import HomePage from "./components/HomePage.vue"
+
 </script>
 
 <template>
-
-  <HelloWorld/>
+  <Navbar></Navbar>
+  <HomePage/>
 </template>
 
-<style scoped>
+<script>
+import Navbar from "./components/Navbar.vue"
+
+export default {
+  components: {
+    Navbar,
+  }
+}
+
+</script>
+
+<style>
 
 </style>
