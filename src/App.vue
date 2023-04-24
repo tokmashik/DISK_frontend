@@ -1,11 +1,9 @@
-<script setup>
-import HomePage from "./components/HomePage.vue"
+<template> 
 
-</script>
-
-<template>
+  <div class="app">  
   <Navbar></Navbar>
-  <HomePage/>
+  <router-view></router-view>
+</div>
 </template>
 
 <script>
@@ -13,12 +11,7 @@ import Navbar from "./components/Navbar.vue"
 
 export default {
   components: {
-    Navbar,
+    Navbar
   }
 }
-
 </script>
-
-<style>
-
-</style>

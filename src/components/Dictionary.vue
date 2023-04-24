@@ -1,29 +1,7 @@
-<script setup>
-import { ref } from 'vue';
-
-const text = ref();
-</script>
-
-
 <template>
-
-  <div class="cont">
-    <span class="p-float-label">
-    <InputText id="txt" type="text" v-model="text" />
-    <label for="txt">Text</label>    
-  </span>
-
-        <Button label="Check" icon="pi pi-user" ></Button>
-<Avatar label="V" class="mr-2" size="large" style="background-color:#2196F3; color: #ddd" shape="circle"  />
-    </div>
-    
+  <h2>Словарь</h2>
+    <h4>Авантюра</h4>
+    <p>
+      (фр.aventure – приключение) – рискованное и сомнительное дело, предпринятое в надежде на случайный успех, приключение, опасное по своей природе, сопровождаемое риском неожиданных событий, перипетий и скачков; беспринципное, сомнительное по своей честности дело; имеет отношение к обману или супружеской измене (чем отличается от обычного приключения).
+    </p>
 </template>
-
-<style>
-.cont {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 100vh;
-}
-</style>

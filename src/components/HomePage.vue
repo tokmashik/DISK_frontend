@@ -11,11 +11,10 @@ const text = ref();
 
   <div class="cont">
     <span class="p-float-label">
-    <InputText id="txt" type="text" v-model="text" />
-    <label for="txt">Text</label>    
-  </span>
-
-        <Button label="Check" icon="pi pi-user" ></Button>
+      <InputText id="txt" type="text" v-model="text" />
+      <label for="txt">Text</label>    
+    </span>
+        <Button label="Следующий вопрос"></Button>
     </div>
     
 </template>
